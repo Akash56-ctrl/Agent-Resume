@@ -26,6 +26,9 @@ resume with latest job apply links""")
 
 st.image("bg.png")
 
+st.sidebar.title("Fill Important details")
+st.sidebar.image("bg.png")
+
 #STEP 1 API KEYS
 GOOGLE_API_KEY = "AQ.Ab8RN6I-QPZez8392MR_uyUM52iAr7-T5C1MyfYttEOxnis-xw"
 GROQ_API_KEY = "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"
