@@ -43,6 +43,22 @@ elif all(all_API):
     st.success("API KEYS LOADED SUCCESSFULLY")
 else:
     st.info("PASS ALL API KEYS")
+
+#MULTISELECT OPTION
+option =["Delhi","Mumbai","Pune",
+         "Banglore","Gurugram/Gurgaon")
+location = st.sidebar.multiselect("Select Location",
+                                  options=options)
+
+profile_op = ["Data Analysts","AI Engineer",
+              "Gen AI Developer","Full-Stack Dev",
+              "Data Scientist"]
+
+profile = st.sidebar.multiselect("Select Job Profile",
+                                  options=profile_op)
+#=======GET USER INFO=======
+st.markdown("""###GET USER INFO""")
+user_info = st.text_area("""Write your Resume Descriprition:""")
     
 model = ChatGoogleGenerativeAI(
     model ='gemini-3.5-flash-lite',
