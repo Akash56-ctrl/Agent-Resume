@@ -1,7 +1,7 @@
 langchain
 langchain-google-genai
 langchain-groq
-tavily python
+tavily-python
 pytesseract
 streamlit
 pandas 
