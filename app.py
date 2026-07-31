@@ -53,7 +53,7 @@ else:
 option =["Delhi","Mumbai","Pune",
          "Banglore","Gurugram/Gurgaon"]
 location = st.sidebar.multiselect("Select Location",
-                                  options=options)
+           options=options)
 
 profile_op = ["Data Analysts","AI Engineer",
               "Gen AI Developer","Full-Stack Dev",
