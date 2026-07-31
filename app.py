@@ -50,7 +50,7 @@ else:
     st.info("PASS ALL API KEYS")
 
 #MULTISELECT OPTION
-option =["Delhi","Mumbai","Pune",
+options =["Delhi","Mumbai","Pune",
          "Banglore","Gurugram/Gurgaon"]
 location = st.sidebar.multiselect("Select Location",
            options=options)
